@@ -116,7 +116,7 @@ $(document).ready(function() {
          }),
          method: 'DELETE',
          success: function() {
-            parentEl.slideUp(200, function() { parentEl.remove(); });
+            parentEl.slideUp(400, function() { parentEl.remove(); });
          }
       })
    }
